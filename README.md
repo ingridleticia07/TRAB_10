@@ -1,4 +1,4 @@
-*ORDENAR USANDO BITWISE*
+>ORDENAR USANDO BITWISE
     O código é um vetor de tamanho 200 que consegue guardar até 6400 elementos. Você digita quantos números quiser, em qualquer ordem, de 0 a 5000, e quando for digitado -1 é retornado todos os números digitados em ordem cresente.
 
 Exemplo:
