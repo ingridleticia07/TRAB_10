@@ -16,8 +16,7 @@ int main(){
    	}
 
     printf("Digite um numero de 0 a 5000 e -1 para finalizar: ");
-   	while(x != -1){					//laço pra percorrer o vetor;
-        //printf("Digite um numero de 0 a 5000 e -1 para finalizar: ");
+   	while(x != -1){			//laço pra percorrer o vetor;
         scanf("%d", &x);
         pos = x/32; 	//achar a posicao no vetor "menor";
         if(x != -1){
@@ -32,9 +31,9 @@ int main(){
                 printf("%d ", res);
             }
 
-                vetor[i] = vetor[i] >> 1;
+                vetor[i] = vetor[i] >> 1;   //percorrendo o vetor
 
-                res = res + 1;
+                res = res + 1;     
 
         }
    	}
